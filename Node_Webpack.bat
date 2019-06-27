@@ -4,7 +4,7 @@ mkdir %project%
 cd %project%
 call npm init
 call npm install
-call npm install webpack --save
+call npm install webpack --save -D
 call npm install -D webpack-cli 
 echo npm done
 mkdir src
@@ -14,7 +14,7 @@ type nul > webpack.config.js
 (echo module.exports = {
 echo entry: './src/app.js',
 echo    output: {
-echo        filename: './dist/bundle.js'
+echo        filename: '../dist/bundle.js'
 echo    },
 echo    module: {
 echo        rules: [
