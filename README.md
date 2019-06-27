@@ -23,14 +23,14 @@ e.g carrots
 4.Simply press enter or filled the project detail
 
 e.g package name: (carrots)
-version: (1.0.0)
-description:
-entry point: (index.js)
-test command:
-git repository:
-keywords:
-author:
-license: (ISC)
+version: (1.0.0)<br/>
+description:<br/>
+entry point: (index.js)<br/>
+test command:<br/>
+git repository:<br/>
+keywords:<br/>
+author:<br/>
+license: (ISC)<br/>
 
 5.It will display the package.json on the terminal
 
@@ -72,5 +72,13 @@ license: (ISC)
 10.you can create the index.html in the root folder and include the bundle.js from ./dist/bundle.js inside script tag
 
 11.your project structure will look something like this
-
-`. ├── index.html ├── package.json ├── webpack.config.js ├── ... ├── src │ ├── app.js ├── ... ├── dist │ ├── bundle.js |\_\_\_`
+.
+├── index.html  
+├── package.json  
+├── webpack.config.js  
+├── ...
+├── src
+│ ├── app.js
+├── ...
+├── dist
+│ ├── bundle.js
