@@ -78,8 +78,8 @@ license: (ISC)
 ├── package.json  
 ├── webpack.config.js  
 ├── ...<br/>
-├── src
-│   ├── app.js
+├── src<br/>
+│   ├── app.js<br/>
 ├── ...<br/>
-├── dist
+├── dist<br/>
 │   ├── bundle.js
