@@ -72,6 +72,7 @@ license: (ISC)<br/>
 10.you can create the index.html in the root folder and include the bundle.js from ./dist/bundle.js inside script tag
 
 11.your project structure will look something like this
+<<<<<<< HEAD
 .
 ├── index.html  
 ├── package.json  
@@ -82,3 +83,16 @@ license: (ISC)<br/>
 ├── ...
 ├── dist
 │ ├── bundle.js
+=======
+
+.<br/>
+├── index.html  
+├── package.json  
+├── webpack.config.js  
+├── ...<br/>
+├── src<br/>
+│   ├── app.js<br/>
+├── ...<br/>
+├── dist<br/>
+│   ├── bundle.js
+>>>>>>> 0273d2500537a9d3c9e1c6ad6b159fbcbdd72b04
