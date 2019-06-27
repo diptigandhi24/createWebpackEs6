@@ -66,7 +66,6 @@ license: (ISC)<br/>
   }
 }
 ```
-
 9. You are done completely!!!
 
 10. You can create the index.html in the root folder and include the bundle.js from ./dist/bundle.js inside script tag
