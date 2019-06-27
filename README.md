@@ -8,19 +8,19 @@ So I wrote a batch script which does that for me and thought it will be helpful 
 
 Follow the instruction to create a set up
 
-1.clone the repo or download it
+1. Clone the repo or download it
 
-2.open command prompt and cd into the folder and run batch file
+2. Open command prompt and cd into the folder and run batch file
 
 i.e cd createWebpack
 
 Node_Webpack.bat
 
-3.It will ask for the name of the project that you want to create
+3. It will ask for the name of the project that you want to create
 
 e.g carrots
 
-4.Simply press enter or filled the project detail
+4. Simply press enter or filled the project detail
 
 e.g package name: (carrots)
 version: (1.0.0)<br/>
@@ -32,11 +32,11 @@ keywords:<br/>
 author:<br/>
 license: (ISC)<br/>
 
-5.It will display the package.json on the terminal
+5. It will display the package.json on the terminal
 
-6.It will atuomatically start installing the webpack
+6. It will atuomatically start installing the webpack
 
-7.Once it is done it will show following lines of instruction to follow
+7. Once it is done it will show following lines of instruction to follow
 
 "Your Project is created please copy/past the below lines inside package.json under 'scripts'"
 
@@ -45,7 +45,7 @@ license: (ISC)<br/>
 "webpack": "webpack -d --watch",
 ```
 
-8.After following above instruction your pacakge.json will look like this
+8. After following above instruction your pacakge.json will look like this
 
 ```json
 {
@@ -67,11 +67,11 @@ license: (ISC)<br/>
 }
 ```
 
-9.You are done completely!!!
+9. You are done completely!!!
 
-10.you can create the index.html in the root folder and include the bundle.js from ./dist/bundle.js inside script tag
+10. You can create the index.html in the root folder and include the bundle.js from ./dist/bundle.js inside script tag
 
-11.your project structure will look something like this
+11. Your project structure will look something like this
 
 .<br/>
 ├── index.html  
