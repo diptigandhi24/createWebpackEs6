@@ -31,7 +31,7 @@ license: (ISC)
     "start": "npm run webpack",
     "webpack": "webpack -d --watch",
 8. After following above instruction your pacakge.json will look like this
-        {
+        `{
   "name": <"ProjectName">,
   "version": "1.0.0",
   "description": "",
@@ -47,7 +47,7 @@ license: (ISC)
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.5"
   }
-}
+}`
 9. You are done completely!!!
 10. you can create the index.html in the root folder and in the bundle.js from ./dist/bundle.js using script tag 
 11. your project structure will look something like this
