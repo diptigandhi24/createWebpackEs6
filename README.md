@@ -73,14 +73,4 @@ license: (ISC)
 
 11.your project structure will look something like this
 
-.
-├── index.html  
-├── package.json  
-├── webpack.config.js  
-├── ...
-├── src
-│ ├── app.js
-├── ...
-├── dist
-│ ├── bundle.js
-└── ...
+`. ├── index.html ├── package.json ├── webpack.config.js ├── ... ├── src │ ├── app.js ├── ... ├── dist │ ├── bundle.js |\_\_\_`
