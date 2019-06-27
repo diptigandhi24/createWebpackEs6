@@ -40,9 +40,10 @@ license: (ISC)
 
 "Your Project is created please copy/past the below lines inside package.json under 'scripts'"
 
+```json
 "start": "npm run webpack",
-
 "webpack": "webpack -d --watch",
+```
 
 8.After following above instruction your pacakge.json will look like this
 
