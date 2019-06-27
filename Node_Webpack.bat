@@ -25,7 +25,6 @@ echo            }
 echo        ]
 echo    }
 echo };)>webpack.config.js
-echo findstr /b /c:"'scripts'" "package.json"
-echo "Put it inside the Package.json under scripts"
+echo "Your Project is created please copy/past the below lines inside package.json under 'scripts'"
 echo "start": "npm run webpack",
 echo "webpack": "webpack -d --watch",
