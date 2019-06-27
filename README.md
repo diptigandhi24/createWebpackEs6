@@ -49,7 +49,7 @@ license: (ISC)
 
 ```json
 {
-  "name": "finalgame",
+  "name": "<ProjectName>",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -69,7 +69,7 @@ license: (ISC)
 
 9.You are done completely!!!
 
-10.you can create the index.html in the root folder and in the bundle.js from ./dist/bundle.js using script tag
+10.you can create the index.html in the root folder and include the bundle.js from ./dist/bundle.js inside script tag
 
 11.your project structure will look something like this
 
