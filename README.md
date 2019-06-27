@@ -47,23 +47,23 @@ license: (ISC)
 
 8.After following above instruction your pacakge.json will look like this
 
-````json
+```json
 {
-"name": <"ProjectName">,
-"version": "1.0.0",
-"description": "",
-"main": "index.js",
-"scripts": {
-"start": "npm run webpack",
-"webpack": "webpack -d --watch",
-"test": "echo \"Error: no test specified\" && exit 1"
-},
-"author": "",
-"license": "ISC",
-"devDependencies": {
-"webpack": "^4.35.0",
-"webpack-cli": "^3.3.5"
-}
+  "name": "finalgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run webpack",
+    "webpack": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
 }
 ```
 
@@ -72,8 +72,6 @@ license: (ISC)
 10.you can create the index.html in the root folder and in the bundle.js from ./dist/bundle.js using script tag
 
 11.your project structure will look something like this
-
-
 
 - index.html
 
@@ -88,4 +86,7 @@ license: (ISC)
 - /dist
 
 |- bundle.js
-````
+
+```
+
+```
